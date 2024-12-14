@@ -6,7 +6,7 @@ Extremely WIP and hard to customise, should be easy to use for your bots in esti
 - Lightweight, and can grab all stats without any extra requests.
 
 ## Installation
-- Install the parser and place it in your bot file.
+- Install the parser and place it in your bot folder, save it is "parser" preferably.
 - Use the `fetch_stats` function to get the original API response.
 - Then, fetch the profile you want to use:
 ```py
