@@ -10,6 +10,8 @@ Extremely WIP and hard to customise, should be easy to use for your bots in esti
 - Use the `fetch_stats` function to get the original API response.
 - Then, fetch the profile you want to use:
 ```py
+data = fetch_data(username)
+profiles = fetch_profiles(data)
 # Fetch Active Profile
 selected_profile_name = profile or next((p["cute_name"] for p in profiles if p["is_active"]), None)
 # Use Custom Profile
